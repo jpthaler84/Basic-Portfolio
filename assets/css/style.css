@@ -9,18 +9,27 @@
 /*For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.*/
 /*For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
 
+.body{
+	width: 960px;
+}
+
 .bigwords{
 	font-family: 'Georgia', 'Times', Times New Roman, serif;
 }
 
 .header{
-	background-color: #ffffff;
+	background-color: #4aaaa5;
 	border-color: #cccccc;
-	color: #4aaaa5;
+	color: white;
+	width: 200px;
+	height: 65px;
+	float: left;
+	padding: 20px 0px 0px 0px;
 }
 
 .footer{
 	background-color: #666666;
+	float: clear;
 }
 
 .p{
